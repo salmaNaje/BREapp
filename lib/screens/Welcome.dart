@@ -1,9 +1,11 @@
 import 'package:bre/Models/Content.dart';
+import 'package:bre/screens/HomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:sizer/sizer.dart';
-import '../Settings/Tababrls.dart';
+
+import '../Settings/TabBarLs.dart';
 
 class Welcome extends StatefulWidget {
   const Welcome({super.key});
@@ -53,15 +55,15 @@ class _WelcomeState extends State<Welcome> {
                           left: 14.h,
                           child: Text('Benghazi',
                               style: TextStyle(
-                                  fontSize: 55, fontWeight: FontWeight.bold),
+                                  fontSize: 26.sp, fontWeight: FontWeight.bold),
                               textAlign: TextAlign.center),
                         ),
                         Positioned(
                           top: 12.h,
-                          left: 17.h,
+                          left: 15.5.h,
                           child: Text('Real Estate',
                               style: TextStyle(
-                                  fontSize: 35, fontWeight: FontWeight.w100),
+                                  fontSize: 20.sp, fontWeight: FontWeight.w100),
                               textAlign: TextAlign.center),
                         ),
                         // Column(
@@ -149,27 +151,27 @@ class _WelcomeState extends State<Welcome> {
                             decoration: BoxDecoration(
                               gradient: LinearGradient(colors: [
                                 Color.fromARGB(255, 161, 130, 100),
-                                Color.fromARGB(255, 252, 207, 149)
+                                Color.fromARGB(255, 39, 32, 22),
                               ]),
                               borderRadius:
                                   BorderRadius.all(Radius.circular(60)),
                             ),
                             child: MaterialButton(
-                              padding: EdgeInsets.fromLTRB(10, 15, 10, 15),
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               // minWidth: MediaQuery.of(context).size.width / 1.5,
                               onPressed: () {
                                 Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) =>
-                                            TabBarScreenSL()));
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => TapBarLs()),
+                                );
                               },
                               child: Text(
-                                "Start Now",
+                                "Start ",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontSize: 35,
-                                  color: Colors.black,
+                                  color: Colors.white,
                                 ),
                               ),
                             )),
@@ -181,20 +183,20 @@ class _WelcomeState extends State<Welcome> {
                             height: 65,
                             decoration: BoxDecoration(
                               gradient: LinearGradient(colors: [
-                                Color.fromARGB(136, 179, 169, 131),
+                                Color.fromARGB(124, 211, 208, 202),
+                                Color.fromARGB(123, 180, 176, 167),
                               ]),
                               borderRadius:
                                   BorderRadius.all(Radius.circular(60)),
                             ),
                             child: MaterialButton(
-                              padding: EdgeInsets.fromLTRB(10, 15, 10, 15),
+                              padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                               // minWidth: MediaQuery.of(context).size.width / 1.5,
                               onPressed: () {
                                 Navigator.pushReplacement(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) =>
-                                            TabBarScreenSL()));
+                                        builder: (context) => HomeScreen()));
                               },
                               child: Text(
                                 "Skip",

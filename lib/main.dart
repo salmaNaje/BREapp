@@ -1,9 +1,11 @@
 import 'package:bre/Settings/Tapbar.dart';
 import 'package:bre/screens/HomeScreen.dart';
+import 'package:bre/screens/Profile.dart';
 import 'package:bre/screens/SplachScreen.dart';
-import 'package:bre/screens/Task.dart';
+import 'package:bre/screens/Welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
+import 'Widget/rent.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: HomeScreen(),
+        home: SplachScreen(),
       );
     });
   }

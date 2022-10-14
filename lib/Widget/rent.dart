@@ -75,7 +75,7 @@ class _RentState extends State<Rent> {
                   TextButton(
                       onPressed: () {},
                       child: Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 15.h),
+                        padding: EdgeInsets.symmetric(horizontal: 10.h),
                         child: Row(
                           children: [
                             Icon(Icons.add_home_work),

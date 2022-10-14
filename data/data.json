@@ -1,0 +1,580 @@
+{
+	"Categories": [{
+		"Villa ": [{
+			"Rent": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "Assets/images/v1.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "Assets/images/v2.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "Assets/images/v3.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v4.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v5.jpeg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v6.jpeg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v7.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v8.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v9.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v10.jpeg"
+				}
+			],
+			"sell": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v11.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "v12.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v13.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v14.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v15.jpeg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v16.jpeg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v17.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v18.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v19.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "v20.jpeg"
+				}
+			]
+		}],
+		"appartment ": [{
+			"Rent": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap1.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "ap2.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap3.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap4.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap5.jpeg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap6.jpeg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap7.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap8.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap9.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap10.jpeg"
+				}
+			],
+			"sell": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap11.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "ap12.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap13.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap14.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap15.jpg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap16.jpg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap17.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap18.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap19.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "ap20.jpeg"
+				}
+			]
+		}],
+		"Office ": [{
+			"Rent": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o1.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": " o2.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o3.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o4.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o5.jpeg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o6.jpeg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o7.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o8.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": " o9.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o10.jpg"
+				}
+			],
+			"sell": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o11.jpg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "o12.jpg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o13.jpg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o14.jpg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o15.jpg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o16.jpg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o17.jpg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o18.jpg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o19.jpg"
+				},
+				{
+					"id": "10",
+					"area": "50",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "o20.jpg"
+				}
+			]
+		}],
+		"Market ": [{
+			"Rent": [{
+					"id": "1",
+					"area": "50",
+					"location": "aljala street",
+					"price": "2000LD in month",
+					"image": "st1.jpg"
+				},
+				{
+					"id": "2",
+					"area": "60",
+					"location": "alkhalij street",
+					"price": "3000LD in month",
+					"image": "st2.jpg"
+				},
+				{
+					"id": "3",
+					"area": "50",
+					"location": "aljala street",
+					"price": "2000LD in month",
+					"image": "st3.jpg"
+				},
+				{
+					"id": "4",
+					"area": "40",
+					"location": "aljala street",
+					"price": "2000LD in month",
+					"image": "st4.jpg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "1500LD in month",
+					"image": "st5.jpg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "1200LD in month",
+					"image": "st6.jpg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "2000LD in month",
+					"image": "st7.jpg"
+				},
+				{
+					"id": "8",
+					"area": "40",
+					"location": "aljala street",
+					"price": "1500LD in month",
+					"image": "st8.jpg"
+				},
+				{
+					"id": "9",
+					"area": "30",
+					"location": "aljala street",
+					"price": "1000LD in month",
+					"image": "st9.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "40",
+					"location": "aljala street",
+					"price": "2500LD in month",
+					"image": "st10.jpeg"
+				}
+			],
+			"sell": [{
+					"id": "1",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st11.jpeg"
+				},
+				{
+					"id": "2",
+					"area": "400",
+					"location": "alkhalij street",
+					"price": "100.000LD",
+					"image": "st12.jpeg"
+				},
+				{
+					"id": "3",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st13.jpeg"
+				},
+				{
+					"id": "4",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st14.jpeg"
+				},
+				{
+					"id": "5",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st15.jpeg"
+				},
+				{
+					"id": "6",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st16.jpeg"
+				},
+				{
+					"id": "7",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st17.jpeg"
+				},
+				{
+					"id": "8",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st18.jpeg"
+				},
+				{
+					"id": "9",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st19.jpeg"
+				},
+				{
+					"id": "10",
+					"area": "500",
+					"location": "aljala street",
+					"price": "99.000LD",
+					"image": "st20.jpeg"
+				}
+			]
+		}]
+	}]
+}

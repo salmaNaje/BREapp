@@ -1,6 +1,8 @@
+import 'package:bre/Settings/Tapbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
+import 'dart:convert';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -37,47 +39,43 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
-        title: Text('HomeScreen'),
+        title: Text(
+          'HomeScreen',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: FutureBuilder(
-          future: _getimages(),
-          builder: (context, AsyncSnapshot snapshot) {
-            if (snapshot.hasError) print(snapshot.error);
-            return snapshot.hasData
-                ? Align(
-                    alignment: Alignment.center,
-                    child: Column(
-                      children: [
-                        Text('Real Estate \n Benghazi'),
-                        SizedBox(
-                          height: 20,
-                        ),
-                        GridView.builder(
-                          shrinkWrap: true,
-                          itemCount: snapshot.data.length,
-                          gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 2,
-                            crossAxisSpacing: 1,
-                            mainAxisSpacing: 1,
-                          ),
-                          itemBuilder: (BuildContext context, int index) {
-                            List reslist = snapshot.data;
-                            return Card(
-                              child: Container(
-                                width: 120,
-                                child: Image.asset(
-                                  reslist[index].toString(),
-                                ),
-                              ),
-                            );
-                          },
-                        ),
-                      ],
-                    ),
-                  )
-                : Center(child: CircularProgressIndicator());
-          }),
+        future: DefaultAssetBundle.of(context).loadString('data/data.json'),
+        builder: (context, Snapshot) {
+          if (Snapshot.hasError) {
+            return Center(
+              child: Text('something went wrong'),
+            );
+          }
+          if (Snapshot.hasData) {
+            var showData;
+            showData = json.decode('Snapshot.data');
+            return ListView.builder(
+                itemCount: showData.length,
+                itemBuilder: (context, index) {
+                  return buildTile(showData[index]);
+                });
+          } else {
+            return Center(
+              child: CircularProgressIndicator(),
+            );
+          }
+        },
+      ),
     );
   }
+}
+
+buildTile(Map<String, dynamic> obj) {
+  return ListTile(
+    title: Text('${obj['id']}'),
+    subtitle: Text('${obj['price']}'),
+    trailing: Text('${obj['location']}'),
+    leading: Text(('${obj['image']}')),
+  );
 }

@@ -12,6 +12,9 @@ class Selling extends StatefulWidget {
 class _SellingState extends State<Selling> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+        // Data
+
+        );
   }
 }

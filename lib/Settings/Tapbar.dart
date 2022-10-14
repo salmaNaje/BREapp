@@ -1,11 +1,11 @@
-import 'package:bre/screens/rent.dart';
-import 'package:bre/screens/selling.dart';
+import 'package:bre/Widget/rent.dart';
+import 'package:bre/Widget/selling.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class TabbarScreen extends StatefulWidget {
-  const TabbarScreen({super.key});
+  const TabbarScreen(categori, {super.key});
 
   @override
   State<TabbarScreen> createState() => _TabbarScreenState();

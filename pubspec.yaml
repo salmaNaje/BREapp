@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
+  sdk: '>=2.18.0 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -39,6 +39,7 @@ dependencies:
   sizer: ^2.0.15
   flutter_rating_bar: ^4.0.1
   flutter_spinkit: ^5.1.0
+  paginate_firestore:
 
 
 dev_dependencies:
@@ -66,11 +67,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - Assets/images/
-    - Assets/images/apartment.png
-    - Assets/images/villa.png
-    - Assets/images/ofice.png
-    - Assets/images/shop.png
-  #   - images/a_dot_ham.jpeg
+    - data/data.json
+  #   - Assets/images/villa.png
+    - Assets/images/log.png
+    - Assets/images/ali.jpeg
+    # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
